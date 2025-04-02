@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   setup-ansible-tools:
-    runs-on: ubuntu-22.04 # Specifies Ubuntu 20.x as the runner
+    runs-on: ubuntu-24.04 # Specifies Ubuntu 20.x as the runner
 
     steps:
     - name: Check out repository code
