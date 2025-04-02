@@ -18,7 +18,7 @@ jobs:
     - name: Install Ansible
       run: |
         python -m pip install --upgrade pip
-        pip install ansible  # Installs Ansible and its dependencies
+        pip install ansible==2.10.7  # Installs Ansible and its dependencies
     - name: Verify Installation
       run: |
         ansible --version  # Check Ansible version
